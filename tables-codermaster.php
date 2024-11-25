@@ -46,13 +46,13 @@ register_activation_hook(__FILE__, 'tables_codermaster_create_db');
 // Crear el menú en el panel de administración
 function tables_codermaster_admin_menu() {
     add_menu_page(
-        'Tables Codermaster',              // Título de la página
-        'Tables Codermaster',              // Título del menú
-        'manage_options',                  // Capacidad requerida
-        'tables-codermaster',              // Slug del menú
-        'tables_codermaster_admin_page',   // Función para mostrar la página
-        'dashicons-media-spreadsheet',     // Icono del menú
-        25                                 // Posición del menú
+        'Tables Codermaster',
+        'Tables Codermaster',
+        'manage_options',                  
+        'tables-codermaster',              
+        'tables_codermaster_admin_page',   
+        'dashicons-media-spreadsheet',     
+        25                                 
     );
 }
 add_action('admin_menu', 'tables_codermaster_admin_menu');
