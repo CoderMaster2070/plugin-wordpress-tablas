@@ -254,7 +254,7 @@ function tables_codermaster_shortcode($atts) {
         $output .= '<tr>';
         $output .= '<td style="border: 1px solid #ddd; padding: 8px;">' . esc_html($file->file_name) . '</td>';
         $output .= '<td style="border: 1px solid #ddd; padding: 8px;">' . esc_html($file->description) . '</td>';
-        $output .= '<td style="border: 1px solid #ddd; padding: 8px;"><a href="' . esc_url($file->file_url) . '" target="_blank" style="padding: 8px 16px; background-color: #0073aa; color: #fff; text-decoration: none; border-radius: 4px;">Descargar</a></td>';
+        $output .= '<td style="border: 1px solid #ddd; padding: 8px;"><a href="' . esc_url($file->file_url) . '" target="_blank" style="padding: 8px 90px; background-color: #0073aa; color: #fff; text-decoration: none; border-radius: 4px;">Descargar</a></td>';
         $output .= '</tr>';
     }
 
