@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tables Codermaster
  * Description: Plugin para generar múltiples tablas dinámicas con nombres y descripciones personalizables.
- * Version: 1.6
+ * Version: 1.7
  * Author: Leonardo Alexander Peñaranda Angarita
  */
 
